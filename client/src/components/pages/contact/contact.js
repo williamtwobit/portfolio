@@ -38,7 +38,6 @@ export class Contact extends React.Component{
                 </label>
               </div>
           </form>
-          <div className="contact second container">
             <div className="contact direct container">
               <div className="contact direct images container">
                 <img src="./assets/contact/li-logo.svg" />
@@ -63,7 +62,6 @@ export class Contact extends React.Component{
               </div>
             </div>
           </div>
-        </div>
       </main>
     );
   }

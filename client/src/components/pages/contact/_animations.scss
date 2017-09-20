@@ -1,6 +1,6 @@
 @keyframes flyOver{
   0% {
-    transform: translateY(-335px) scale(.4) translateX(-1450px);
+    transform: translateY(-240%) scale(.4) translateX(-655%);
   }
   100% {
     transform: initial;
@@ -25,16 +25,16 @@
 
 @keyframes cowMunch{
   25% {
-    transform: translateX(24px) translateY(-22px);
+    transform: translateX(24px) translateY(-18px);
   }
   50% {
-    transform: translateX(24px) translateY(-21px);
+    transform: translateX(24px) translateY(-17px);
   }
   75% {
-    transform: translateX(26px) translateY(-21px);
+    transform: translateX(26px) translateY(-17px);
   }
   100% {
-    transform: translateX(26px) translateY(-22px);
+    transform: translateX(26px) translateY(-18px);
   }
 }
 
