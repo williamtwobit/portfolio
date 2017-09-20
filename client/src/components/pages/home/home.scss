@@ -19,12 +19,14 @@ img{
 
 header.home{
   height: fit-content;
-  width: 800px;
+  width: 60vw;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom:20px;
+  margin-bottom:5vh;
   justify-content: space-between;
   img{
+    height: 6.5vw;
+    width:auto;
     animation: comeDown 2s, ufoHover 1s infinite;
   }
 }
@@ -34,12 +36,13 @@ header.home{
 }
 
 h1.name{
-  font-size:64px;
+  font-size:5vw;
   animation: fadeIn 2s;
+  text-align: right;
 }
 
 h2.tagline{
-  font-size: 20px;
+  font-size: 1.5vw;
   text-align: right;
   animation: fadeIn 2s;
 }
@@ -49,29 +52,40 @@ h2.tagline{
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
   margin-left:auto;
   margin-right:auto;
-  width:800px;
-  height:500px;
+  width:60vw;
+  height:37.5vw;
+  max-width:1200px;
+  max-height:750px;
   position:relative;
   animation: fadeIn 2s;
+  img.display{
+    width:60vw;
+    height:auto;
+    max-width:1200px;
+  }
 }
 
 .gridNav{
+  z-index: 999;
   position: absolute;
-  width: 95px;
-  height: 92px;
+  width: 12%;
+  height:18.5%;
   background-image: radial-gradient(80% 80%, rgba(117,219,205,0.75) 2%, rgba(255,255,255,0.00) 100%);
-  margin-left: 403px;
-  margin-top: 404px;
+  bottom:.75%;
+  left: 50.35%;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   .top{
-    margin-bottom: -5px;
+    width:35%;
+    height:auto;
+    margin-bottom: -5%;
     animation: arrowTop 1.5s infinite;
     transition: .2s ease-in-out;
   }
   .bottom{
-    margin-top: -5px;
+    width:30%;
+    height:auto;
     animation: arrowBottom 1.5s infinite;
     transition: .2s ease-in-out;
   }

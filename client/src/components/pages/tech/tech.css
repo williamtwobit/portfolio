@@ -20,13 +20,14 @@
     opacity: 1; } }
 
 .techGrid {
-  width: 100%;
+  width: 60vw;
+  max-width: 1200px;
   position: relative;
   animation: fadeIn .5s;
   transition: .2s ease-in; }
   .techGrid img {
-    height: fit-content;
-    width: fit-content; }
+    width: 100%;
+    height: auto; }
 
 .techGrid.content {
   margin: auto;
@@ -34,11 +35,10 @@
   padding-top: 2px;
   padding-bottom: 9px;
   position: absolute;
-  width: 63.6%;
+  width: 62%;
   height: 100%;
-  top: 0;
-  left: 295px;
-  right: 0;
+  top: 1%;
+  right: 1%;
   bottom: 0; }
 
 .row {
@@ -56,6 +56,7 @@
   border: solid 2.5px #2E0444;
   display: flex; }
   .logo img {
+    width: 80%;
     margin: auto;
     opacity: 0;
     animation-name: popIn, in;

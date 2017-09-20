@@ -12,35 +12,35 @@
   60% {
     margin-top: 30px; }
   100% {
-    margin-top: -20px; } }
+    margin-top: -3vh; } }
 
 .cards {
-  width: 100%;
+  width: 60vw;
+  max-width: 1200px;
   justify-content: space-between; }
 
 .skill-card {
   background: #2E0444;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-  width: fit-content;
-  height: 360px;
+  width: 19vw;
+  height: 26.3vw;
   flex-direction: column;
   transition: .2s ease;
   animation: fallIn .5s; }
-
-img {
-  height: fit-content;
-  width: fit-content; }
+  .skill-card img {
+    width: 100%;
+    height: auto; }
 
 .develop {
   transition: .2s ease;
   animation: fallInMiddle .5s;
-  margin-top: -20px; }
+  margin-top: -3vh; }
 
 p.skill {
   box-sizing: border-box;
-  width: 260px;
+  width: 19vw;
   font-family: 'Comfortaa', cursive;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1.1vw;
   padding: 10px;
   line-height: 1.3; }

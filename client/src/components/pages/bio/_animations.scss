@@ -11,3 +11,25 @@
     width: 100%;
   }
 }
+
+@keyframes slideRight{
+   0% {
+     margin-left: -500%;
+     margin-right: 500%
+   }
+   100% {
+     margin-left: initial;
+     margin-right: initial;
+   }
+}
+
+@keyframes slideLeft{
+  0% {
+    margin-left: 500%;
+    margin-right: -500%
+  }
+  100% {
+    margin-left: initial;
+    margin-right: initial;
+  }
+}
